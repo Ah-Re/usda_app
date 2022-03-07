@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.nav {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.shopping-cart-icon {
+    cursor: pointer;
+}
+
+/* Searchbar */
+.search-bar {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.searchbar button {
+    cursor: pointer;
+}
