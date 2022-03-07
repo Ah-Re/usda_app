@@ -9,6 +9,12 @@ dotenv.config({
 const PORT = process.env.PORT || 8080;
 const api = process.env.API_KEY;
 
+app.set('view engine', 'ejs')
+
+app.get("/", (req, res) => {
+    res.render('index');
+})
+
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 })
