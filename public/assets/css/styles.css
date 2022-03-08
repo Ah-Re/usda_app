@@ -17,6 +17,17 @@ h1 {
     padding: 2rem;
 }
 
+.nav a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
 .shopping-cart-icon {
     cursor: pointer;
 }
@@ -29,4 +40,20 @@ h1 {
 
 .searchbar button {
     cursor: pointer;
+}
+
+/* Food List Item */
+
+.food-list-item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.food-list-item-heading {
+    background-color: lightblue;
+}
+
+.food-list-item-details {
+    background-color: lightgray;
 }
